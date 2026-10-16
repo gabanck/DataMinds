@@ -1,0 +1,21 @@
+.footer {
+  padding: 2rem 0 3rem;
+  background: rgba(13, 65, 127, 0.03);
+  border-top: 1px solid rgba(19, 34, 56, 0.06);
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer__nav a {
+  color: var(--color-text-muted);
+}
